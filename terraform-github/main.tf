@@ -1,6 +1,6 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "rg-github-sea-1"
+    resource_group_name  = "rg-github-sea-001"
     storage_account_name = "storageaccount1009080"
     container_name       = "tfstatefile"
     key                  = "dev.terraform.tfstate"
